@@ -20,7 +20,7 @@
 
   return (
     <div>
-      <h3 className="font-['Twentieth'] uppercase text-white text-xs lg:text-4xl text-center mb-10 lg:mb-24">
+      <h3 className="font-['Twentieth'] uppercase text-white text-xs lg:text-4xl text-center mb-5 lg:mb-24">
         álbuns mais ouvidos {getPeriodName()}
       </h3>
       <ul>

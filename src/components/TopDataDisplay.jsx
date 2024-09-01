@@ -88,7 +88,7 @@ const TopDataDisplay = ({ user }) => {
           </div>
         </div>
 
-        <div className="flex flex-wrap items-center justify-center max-w-[70vw] font-bold gap-1 lg:gap-5 lg:ml-[10rem] mt-5 mx-2 mb-10">
+        <div className="flex flex-wrap items-center justify-center max-w-[70vw] font-bold gap-1 lg:gap-5 lg:ml-[10rem] mt-5 mx-auto mb-10">
           <div
             className="cursor-pointer bg-orange-100 lg: p-2 rounded-lg hover:underline text-orange-400"
             onClick={() => {
@@ -135,7 +135,7 @@ const TopDataDisplay = ({ user }) => {
             <div className="">
               <TemplateSelection selectedTemplate={selectedTemplate} />
             </div>
-            <div className="absolute lg:top-[14rem] lg:left-[7rem] top-[3.5rem] left-[1.4rem]">
+            <div className="absolute lg:top-[14rem] lg:left-[7rem] top-[3.5rem] left-[1.2rem]">
               <List data={data} period={period} method={method} />
             </div>
             <div className="absolute flex max-w-auto left-[14rem] top-[10.8rem] lg:left-[48.5rem] lg:top-[36rem]">
