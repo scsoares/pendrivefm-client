@@ -12,7 +12,7 @@ export const Credits = () => {
           .
         </span>
         <div className="flex gap-5">
-          <a href="https://github.com/scsoares/pendrivefm">
+          <a href="https://github.com/scsoares/pendrivefm-client">
             <FaGithub size={32} />
           </a>
         </div>
