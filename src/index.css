@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Twentieth";
+    font-style: normal;
+    src: url(assets/Twentieth-Century-Condensed-Bold.ttf) format("truetype");
+  }
+}
