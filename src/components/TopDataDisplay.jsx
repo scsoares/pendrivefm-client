@@ -138,7 +138,7 @@ const TopDataDisplay = ({ user }) => {
             <div className="absolute lg:top-[14rem] lg:left-[7rem] top-[3.5rem] left-[1.2rem]">
               <List data={data} period={period} method={method} />
             </div>
-            <div className="absolute flex max-w-auto left-[14rem] top-[10.8rem] lg:left-[48.5rem] lg:top-[36rem]">
+            <div className="absolute flex max-w-auto left-[12.2rem] top-[9.5rem] lg:left-[48.5rem] lg:top-[36rem]">
               <Grid data={data} period={period} method={method} />
             </div>
           </div>
