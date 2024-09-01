@@ -10,7 +10,7 @@ export const apiClient = axios.create({
 
 const getUserTopData = async (user, method, period) => {
   try {
-    const response = await apiClient.get('/lastfm', {
+    const response = await apiClient.get('/pendrive', {
       params: {
         user,
         method,
