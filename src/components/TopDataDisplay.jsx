@@ -88,7 +88,7 @@ const TopDataDisplay = ({ user }) => {
           </div>
         </div>
 
-        <div className="flex font-bold gap-1 lg:gap-5 lg:ml-[10rem] mt-5 mx-2 mb-10">
+        <div className="flex flex-wrap max-w-[70vw] font-bold gap-1 lg:gap-5 lg:ml-[10rem] mt-5 mx-2 mb-10">
           <div
             className="cursor-pointer bg-orange-100 lg: p-2 rounded-lg hover:underline text-orange-400"
             onClick={() => {
